@@ -15,3 +15,8 @@ Thermostat.prototype.up = function() {
 Thermostat.prototype.down = function() {
   this.temperature -= 1;
 };
+
+Thermostat.prototype.min = function() {
+  this.temperature = 10;
+};
+});
