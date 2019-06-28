@@ -3,17 +3,17 @@ body, html {
   font-weight: bold;
   color: white;
   text-shadow: 1px 1px 2px #000000;
+  text-align: center;
   color:#FFD232;
-
+/* 
   width: 500px;
-  height: 500px;
+  height: 500px; */
   background-color: #e8308c;
   -webkit-animation-name: pulse; 
   -webkit-animation-duration: 5s; 
   animation: pulse 5s infinite;
   }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes pulse {
   0%   {background-color: #e8308c;}
   25%  {background-color: #574FF2;}
@@ -21,14 +21,13 @@ body, html {
   100% {background-color: #A623D0;}
 }
 
-/* Standard syntax */
 @keyframes pulse {
   0%   {background-color: #e8308c;}
   25%  {background-color: #574FF2;}
   50%  {background-color: #2811C7;}
   100% {background-color: #A623D0;}
 }
-
+ 
   .div1 {
   text-shadow: 1px 1px 1px #000000;
   color: #2516c7;
@@ -40,9 +39,10 @@ body, html {
   border-radius: 50px;
   background: #ffffff;
   padding: 20px; 
-  width: 400px;
   height: 250px;
-  align-self: center;
+  width: 400px;
+  margin: 0 auto;
+
   }
 
   .div2 {
@@ -51,13 +51,14 @@ body, html {
   text-align: center;
   border: 2px solid black;
   box-sizing: border-box;
-  box-shadow: 3px 3px 5px #000000;
+  /* box-shadow: 3px 3px 5px #000000; */
   box-align: center;
   border-radius: 50px;
   background: #ffffff;
   padding: 20px; 
   width: 400px;
-  height: 150px; 
+  height: 150px;
+  margin: 0 auto;
   }
 
 
