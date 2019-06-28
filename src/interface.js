@@ -64,8 +64,8 @@ $(document).ready(function() {
   });
 
   function updateTemperature() {
-    $('#temperature').text(thermostat.temperature);
-    $('#temperature').attr('class', thermostat.energyUsage());
+    $('#current-thermostat-temp').text(thermostat.temperature);
+    $('#current-thermostat-temp').attr('class', thermostat.energyUsage());
   };
 
 });
