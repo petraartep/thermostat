@@ -1,0 +1,16 @@
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:#e8308c;
+}
+
+.low-usage {
+  color: green;
+}
+.medium-usage {
+  color: black;
+}
+
+.high-usage {
+  color: red;
+}

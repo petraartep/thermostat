@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Thermostat</title>
+  <link rel="stylesheet" href="thermostat.css">
+</head>
+
+<section>
+  <h1>Current temperature: <span id="current-temperature">20</span></h1>
+  <select id="current-city">
+    <option value="london">London</option>
+    <option value="boston">Boston</option>
+    <option value="houston">Houston</option>
+    <option value="seattle">Seattle</option>
+    <option value="doha">Doha</option>
+    <option value="riyadh">Riyadh</option>
+    <option value="seoul">Seoul</option>
+    <option value="sydney">Sydney</option>
+    <option value="shanghai">Shanghai</option>
+    <option value="tokyo">Tokyo</option>
+    <option value="singapore">Singapore</option>
+    <option value="johannesburg">Johannesburg</option>
+    <option value="budapest">Budapest</option>
+    <option value="moscow">Moscow</option>
+  </select>
+</section>
+
+<!-- <section>
+  <h1>Current temperature: <span id="current-temperature">20</span></h1>
+  <form id="select-city">
+    <input id="current-city" type="text" placeholder="Enter a city"></input>
+    <input type="submit"></input>
+  </form>
+</section> -->
+
+<body> 
+  <section class="container">
+    <h1 id="temperature"></h1>
+      <button id="temp-up">+</button>
+      <button id="temp-down">-</button>
+      <button id="temp-reset">reset</button>
+      
+      <p>Power saving mode: </p>
+      <span id="power-saving-status">on</span>
+      <button id="psm-on">PSM on</button>
+      <button id="psm-off">PSM off</button>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+    crossorigin="anonymous"></script>
+  <script src="./interface.js"></script>
+  <script src="./Thermostat.js"></script>
+
+</body>
+
+</html>
+
