@@ -1,5 +1,7 @@
 # :thermometer: Thermostat :thermometer:
 
+Using Jasmine jQuery to TDD a simple thermostat
+
 ---
 
 ## Functionalites
@@ -19,4 +21,14 @@
 ---
 
 ## Learning Objectives
-Use Jasmine to Test-Drive Development of a thermostat
+- [x] Use Jasmine to Test-Drive Development of a thermostat
+
+## Challenges
+- Debugging
+- CSS 
+
+
+---
+## How to run 
+
+Open `src/index.html` in your browser.
