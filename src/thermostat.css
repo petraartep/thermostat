@@ -4,11 +4,11 @@ body, html {
   color: white;
   text-shadow: 1px 1px 2px #000000;
   text-align: center;
-  color:#FFD232;
+  color:#ff00aa;
 /* 
   width: 500px;
   height: 500px; */
-  background-color: #e8308c;
+  background-color: #3cff09;
   -webkit-animation-name: pulse; 
   -webkit-animation-duration: 5s; 
   animation: pulse 5s infinite;
@@ -28,36 +28,36 @@ body, html {
   100% {background-color: #A623D0;}
 }
  
+
   .div1 {
-  text-shadow: 1px 1px 1px #000000;
-  color: #2516c7;
+  text-shadow: 1px 1px 0.5px #000000;
+  color: #ff00aa;
   text-align: center;
-  border: 2px solid black;
+  border: 1px solid black;
   box-sizing: border-box;
   box-shadow: 3px 3px 5px #000000;
   box-align: center;
   border-radius: 50px;
   background: #ffffff;
   padding: 20px; 
-  height: 250px;
   width: 400px;
+  height: 220px;
   margin: 0 auto;
-
   }
 
   .div2 {
-  text-shadow: 1px 1px 1px #000000;
-  color: #2516c7;
+  text-shadow: 1px 1px 0.5px #000000;
+  color: #ff00aa;
   text-align: center;
-  border: 2px solid black;
+  border: 1px solid black;
   box-sizing: border-box;
-  /* box-shadow: 3px 3px 5px #000000; */
+  box-shadow: 5px 5px 10px #000000;
   box-align: center;
   border-radius: 50px;
   background: #ffffff;
   padding: 20px; 
+  height: 330px;
   width: 400px;
-  height: 150px;
   margin: 0 auto;
   }
 
