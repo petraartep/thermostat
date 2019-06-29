@@ -27,8 +27,12 @@ Using Jasmine jQuery to TDD a simple thermostat
 - Debugging
 - CSS 
 
-
 ---
 ## How to run 
 
 Open `src/index.html` in your browser.
+
+
+## Screenshot
+
+![thermostat](https://user-images.githubusercontent.com/23095774/60382757-9e4e1a00-9a5f-11e9-83a7-4fbd65225aae.gif)
