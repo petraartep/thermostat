@@ -1,5 +1,9 @@
 # :thermometer: Thermostat :thermometer:
 
+
+[![Build Status](https://travis-ci.org/petraartep/thermostat.svg?branch=master)](https://travis-ci.org/petraartep/thermostat)
+
+
 Using Jasmine jQuery to TDD a simple thermostat
 
 ---
