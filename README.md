@@ -13,6 +13,8 @@ A responsive web app where users can choose the temperature based on the current
 - jQuery
 - CSS
 - HTML
+- ESLint
+- Travis CI
 
 
 ## Functionalites
