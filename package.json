@@ -1,0 +1,29 @@
+{
+  "name": "thermostat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petraartep/thermostat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petraartep/thermostat/issues"
+  },
+  "homepage": "https://github.com/petraartep/thermostat#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "grunt-template-jasmine-istanbul": "^0.5.0"
+  }
+}

@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Thermostat</title>
-  <link rel="stylesheet" href="thermostat.css">
+  <link rel="stylesheet" href="./src/thermostat.css">
 </head>
-
-
 <body>
-
   <section align="center">
     <div class="div1">
       <h1>Current temperature<br><br><span id="current-temperature">0</span></h1>
@@ -21,37 +17,29 @@
       </form>
     </div>
   </section>
-  
   <br>
   <br>
   <section align="center" id="container">
   <div class="div2">
-
     <h1 id="temperature">Thermostat Temperature<br><br><span id="current-thermostat-temp"></span></h1>
-
       <section id="temp-controls">
         <h3>Temperature Controls</h3>
         <button id="temp-up">+</button>
         <button id="temp-down">-</button>
         <button id="temp-reset">reset</button>
       </section>
- 
       <section id="power-saving-mode">
         <h3>Power saving mode: </h3>
         <span id="psm-status"</span>
         <button id="psm-on">PSM on</button>
         <button id="psm-off">PSM off</button>
       </section>
-  </section>
+    </section>
   </div>
-  </main>
-
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
     crossorigin="anonymous"></script>
   <script src="./interface.js"></script>
   <script src="./Thermostat.js"></script>
-
 </body>
-
 </html>

@@ -1,7 +1,6 @@
 # :thermometer: Thermostat :thermometer:
 
 
-
 A responsive web app where users can choose the temperature based on the current temperature of cities around the world, incorporating a weather API.
 
 ---
@@ -41,16 +40,14 @@ A responsive web app where users can choose the temperature based on the current
 ## How to use the application
 
 ### How to install
-
-
 Clone the repository and `cd` into the directory to install dependencies 
-
 ``` 
 $ npm install
 ```
 
+### Run the app
 ```
-$ open 'src/index.html'
+$ open 'index.html'
 ```
 
 ### Run the tests
