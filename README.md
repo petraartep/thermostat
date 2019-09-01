@@ -1,8 +1,6 @@
 # :thermometer: Thermostat :thermometer:
 
 
-[![Build Status](https://travis-ci.org/petraartep/thermostat.svg?branch=master)](https://travis-ci.org/petraartep/thermostat)
-
 
 A responsive web app where users can choose the temperature based on the current temperature of cities around the world, incorporating a weather API.
 
