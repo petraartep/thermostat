@@ -1,5 +1,7 @@
 # :thermometer: Thermostat :thermometer:
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0a64b661-e16e-4e17-b2d6-2c124087cbcd/deploy-status)](https://app.netlify.com/sites/optimistic-joliot-58246f/deploys) 
+
 
 A responsive web app where users can choose the temperature based on the current temperature of cities around the world, incorporating a weather API.
 
@@ -14,8 +16,7 @@ A responsive web app where users can choose the temperature based on the current
 - CSS
 - HTML
 - ESLint
-- Travis CI
-
+- Netlify
 
 ## Functionalites
 
@@ -51,11 +52,16 @@ $ npm install
 ```
 $ open 'index.html'
 ```
+### Deployed on Netlify
+
+https://optimistic-joliot-58246f.netlify.com/
+
 
 ### Run the tests
 ```
 $ open 'SpecRunner.html' 
 ```
+
 
 <p align='center'>
 <img width="800" src="https://user-images.githubusercontent.com/23095774/64070812-0b9a4900-cc63-11e9-8f69-cf7a2e679891.png">
