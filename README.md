@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/petraartep/thermostat.svg?branch=master)](https://travis-ci.org/petraartep/thermostat)
 
 
-Using Jasmine jQuery to TDD a simple thermostat
+A responsive web app where users can choose the temperature based on the current temperature of cities around the world, incorporating a weather API.
 
 ---
 
@@ -13,6 +13,7 @@ Using Jasmine jQuery to TDD a simple thermostat
 
 - Javascript
 - Jasmine
+- jQuery
 - CSS
 - HTML
 
@@ -59,12 +60,14 @@ $ open 'src/index.html'
 $ open 'SpecRunner.html' 
 ```
 
-## Screenshot
+<p align='center'>
+<img width="800" src="https://user-images.githubusercontent.com/23095774/64070812-0b9a4900-cc63-11e9-8f69-cf7a2e679891.png">
+</p>
 
-![thermostat](https://user-images.githubusercontent.com/23095774/60382757-9e4e1a00-9a5f-11e9-83a7-4fbd65225aae.gif)
-
+## Screenshots
 
 <p align = 'center'>
 <img width="800" src="https://user-images.githubusercontent.com/23095774/64070790-464fb180-cc62-11e9-9071-355f5c935319.png">
 <img width="800" src="https://user-images.githubusercontent.com/23095774/64070791-464fb180-cc62-11e9-96e2-f2a9a59c7aa7.png">
+<img width="800" src="https://user-images.githubusercontent.com/23095774/60382757-9e4e1a00-9a5f-11e9-83a7-4fbd65225aae.gif">
 </p>
