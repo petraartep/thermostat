@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "spec/"
+    "test": "./spec/*.js"
   },
   "repository": {
     "type": "git",

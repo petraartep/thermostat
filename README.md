@@ -1,6 +1,6 @@
 # :thermometer: Thermostat :thermometer:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0a64b661-e16e-4e17-b2d6-2c124087cbcd/deploy-status)](https://app.netlify.com/sites/optimistic-joliot-58246f/deploys) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0a64b661-e16e-4e17-b2d6-2c124087cbcd/deploy-status)](https://app.netlify.com/sites/optimistic-joliot-58246f/deploys) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
 A responsive web app where users can choose the temperature based on the current temperature of cities around the world, incorporating a weather API.
